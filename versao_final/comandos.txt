@@ -1,0 +1,6 @@
+http://localhost:6543/
+${workspaceFolder}\versao_final\development.ini
+
+Executar o Servidor:
+cd versao_final
+pserve development.ini --reload

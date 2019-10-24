@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="${request.locale_name}">
+  <head>
+     <!-- CSS -->
+      <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <style>
+        body{
+            background-color: rgb(21, 45, 184)!important;
+        }
+
+        .caixa-sintomas{
+            margin-bottom: 20px;
+        }
+
+        .caixa-resultado {
+            border: 1px solid black;
+            min-height: 450px!important;
+            margin-bottom: 20px;
+        }
+
+        .container{
+            margin: 50px;
+            border-radius: 9px;
+            background-color: white;
+        }
+      </style>
+
+      <!-- JS -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="static/versao_final.js"></script>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row caixa-sintomas">
+            <div class="col-md-12">
+                <h3>Sintomas</h3>
+                <div class="form-group col-md-3">
+                    <label for="inpFebre">Febre</label>
+                    <input step="0.1" min="35" max="40" type="number" class="form-control" id="inpFebre">
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="selTosse">Tosse</label>
+                    <select class="form-control" id="selTosse">
+                        <option value="Sem tosse">Sem tosse</option>
+                        <option value="Tosse seca">Tosse seca</option>
+                        <option value="Tosse catarro amarelado">Tosse catarro amarelado</option>
+                        <option value="Tosse catarro esverdeado">Tosse catarro esverdeado</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="selFaltaAr">Falta de ár/dificuldade para respirar</label>
+                    <select class="form-control" id="selFaltaAr">
+                        <option value="Respiracao normal">Respiração normal</option>
+                        <option value="Falta ar">Falta de ár</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="selDor">Dor</label>
+                    <select class="form-control" id="selDor">
+                        <option value="Sem dor">Sem dor</option>
+                        <option value="Peito">Dor no peito</option>
+                        <option value="Torax">Dor no tórax</option>
+                        <option value="Torax e Peito">Dor no tórax e peito</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="selMalEstar">Mal-estar generalizado</label>
+                    <select class="form-control" id="selMalEstar">
+                        <option value="Sem mal estar">Sem mal-estar</option>
+                        <option value="Mal estar">Mal-estar</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="selFraqueza">Fraqueza</label>
+                    <select class="form-control" id="selFraqueza">
+                        <option value="Sim">Sim</option>
+                        <option value="Nao">Não</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="selSuor">Suor</label>
+                    <select class="form-control" id="selSuor">
+                        <option value="Normal">Normal</option>
+                        <option value="Intenso">Intenso</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="selNauseaVomito">Náusea e Vômito</label>
+                    <select class="form-control" id="selNauseaVomito">
+                        <option value="Sem Nausea">Sem náusea</option>
+                        <option value="Nausea">Náusea e vômito</option>
+                    </select>
+                </div>
+                <div class="col-md-12">
+                    <button id="btnConsultar" type="submit" class="btn btn-primary">Consultar</button>
+                </div>
+            </div>
+        </div>
+        <div class="row caixas-resultados">
+            <div class="col-md-6">
+                <h3>Resultados Apriori</h3>
+                <div class="col-md-12 caixa-resultado" id="divAprioriResultados">
+
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3>Resultados FP Growth</h3>
+                <div class="col-md-12 caixa-resultado" id="divFPGrowthResultados">
+
+                </div>
+            </div>
+        </div>
+    </div>  
+  </body>
+</html>

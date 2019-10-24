@@ -1,0 +1,1001 @@
+Nome,Febre,Tosse,Falta ar e dificuldade respirar,Dor,Mal-estar generalizado,Fraqueza,Suor intenso,Nausea e Vomito,Pneumonia
+Paciente 1,"37,5 -",Tosse seca,Respiracao normal,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 2,"37,5 +",Tosse catarro amarelado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 3,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 4,"37,5 -",Tosse catarro esverdeado,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 5,"37,5 +",Sem tosse,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 6,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 7,"37,5 +",Tosse seca,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 8,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 9,"37,5 +",Tosse catarro amarelado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 10,"37,5 +",Tosse catarro esverdeado,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 11,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 12,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 13,"37,5 +",Tosse seca,Respiracao normal,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 14,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 15,"37,5 +",Tosse catarro amarelado,Falta ar,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 16,"37,5 -",Sem tosse,Falta ar,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 17,"37,5 +",Tosse catarro esverdeado,Falta ar,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 18,"37,5 -",Sem tosse,Falta ar,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 19,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 20,"37,5 +",Tosse seca,Falta ar,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 21,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 22,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 23,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 24,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 25,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 26,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 27,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 28,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 29,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 30,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 31,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 32,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 33,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 34,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 35,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 36,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 37,"37,5 +",Tosse seca,Falta ar,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 38,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 39,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 40,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 41,"37,5 +",Tosse catarro esverdeado,Falta ar,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 42,"37,5 -",Sem tosse,Falta ar,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 43,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 44,"37,5 +",Tosse seca,Falta ar,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 45,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 46,"37,5 -",Sem tosse,Falta ar,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 47,"37,5 +",Tosse catarro esverdeado,Falta ar,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 48,"37,5 -",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 49,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 50,"37,5 +",Tosse seca,Falta ar,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 51,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 52,"37,5 +",Tosse catarro amarelado,Falta ar,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 53,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 54,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 55,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 56,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 57,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 58,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 59,"37,5 -",Sem tosse,Falta ar,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 60,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 61,"37,5 +",Tosse seca,Falta ar,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 62,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 63,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 64,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 65,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 66,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 67,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 68,"37,5 -",Sem tosse,Falta ar,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 69,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 70,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 71,"37,5 +",Tosse catarro esverdeado,Falta ar,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 72,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 73,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 74,"37,5 +",Tosse seca,Falta ar,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 75,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 76,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 77,"37,5 +",Tosse catarro esverdeado,Falta ar,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 78,"37,5 -",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 79,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 80,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Normal,Sem nausea,0.0
+Paciente 81,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 82,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 83,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 84,"37,5 -",Sem tosse,Falta ar,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 85,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 86,"37,5 +",Tosse seca,Falta ar,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 87,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 88,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 89,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 90,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 91,"37,5 -",Sem tosse,Falta ar,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 92,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 93,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 94,"37,5 -",Tosse catarro amarelado,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 95,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 96,"37,5 -",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 97,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 98,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 99,"37,5 +",Tosse seca,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 100,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 101,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 102,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 103,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Normal,Sem nausea,0.0
+Paciente 104,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 105,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 106,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 107,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 108,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 109,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 110,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 111,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 112,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 113,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 114,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 115,"37,5 +",Tosse seca,Falta ar,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 116,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 117,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 118,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 119,"37,5 +",Tosse catarro esverdeado,Falta ar,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 120,"37,5 -",Sem tosse,Falta ar,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 121,"37,5 +",Tosse catarro amarelado,Falta ar,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 122,"37,5 +",Tosse seca,Falta ar,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 123,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 124,"37,5 -",Sem tosse,Respiracao normal,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 125,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 126,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 127,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 128,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 129,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 130,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 131,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 132,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 133,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 134,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 135,"37,5 +",Tosse seca,Falta ar,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 136,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 137,"37,5 -",Sem tosse,Falta ar,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 138,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 139,"37,5 +",Tosse seca,Falta ar,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 140,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 141,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 142,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 143,"37,5 +",Tosse catarro amarelado,Falta ar,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 144,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 145,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 146,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 147,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 148,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 149,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Intenso,Nausea,1.0
+Paciente 150,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 151,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 152,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Normal,Sem nausea,0.0
+Paciente 153,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 154,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 155,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Nausea,1.0
+Paciente 156,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 157,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Sem nausea,0.0
+Paciente 158,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Nausea,1.0
+Paciente 159,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Sem nausea,0.0
+Paciente 160,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Nausea,1.0
+Paciente 161,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Sem nausea,0.0
+Paciente 162,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Nausea,1.0
+Paciente 163,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,0.0
+Paciente 164,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,1.0
+Paciente 165,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 166,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 167,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,1.0
+Paciente 168,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 169,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 170,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 171,"37,5 -",Sem tosse,Falta ar,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 172,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 173,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 174,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Intenso,Nausea,1.0
+Paciente 175,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Sem nausea,0.0
+Paciente 176,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,1.0
+Paciente 177,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 178,"37,5 +",Tosse seca,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 179,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 180,"37,5 +",Tosse catarro amarelado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 181,"37,5 -",Tosse catarro esverdeado,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 182,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 183,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 184,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 185,"37,5 -",Sem tosse,Falta ar,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 186,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 187,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 188,"37,5 +",Tosse catarro esverdeado,Falta ar,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 189,"37,5 -",Sem tosse,Falta ar,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 190,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 191,"37,5 +",Tosse seca,Falta ar,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 192,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 193,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 194,"37,5 +",Tosse catarro esverdeado,Falta ar,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 195,"37,5 -",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 196,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 197,"37,5 +",Tosse seca,Respiracao normal,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 198,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 199,"37,5 +",Tosse catarro amarelado,Falta ar,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 200,"37,5 -",Sem tosse,Falta ar,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 201,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 202,"37,5 -",Sem tosse,Falta ar,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 203,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 204,"37,5 +",Tosse seca,Falta ar,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 205,"37,5 +",Tosse catarro esverdeado,Falta ar,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 206,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 207,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 208,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 209,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 210,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 211,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 212,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 213,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 214,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 215,"37,5 -",Tosse seca,Falta ar,Torax,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 216,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 217,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 218,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 219,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 220,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 221,"37,5 +",Tosse seca,Falta ar,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 222,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 223,"37,5 +",Tosse catarro amarelado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 224,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 225,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 226,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 227,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 228,"37,5 +",Tosse seca,Falta ar,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 229,"37,5 +",Tosse catarro amarelado,Falta ar,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 230,"37,5 -",Sem tosse,Falta ar,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 231,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Intenso,Nausea,1.0
+Paciente 232,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 233,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 234,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 235,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 236,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 237,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Nausea,1.0
+Paciente 238,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 239,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,0.0
+Paciente 240,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 241,"37,5 +",Tosse catarro amarelado,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 242,"37,5 +",Tosse seca,Respiracao normal,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 243,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 244,"37,5 -",Sem tosse,Falta ar,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 245,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 246,"37,5 -",Tosse seca,Falta ar,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 247,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 248,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Normal,Sem nausea,0.0
+Paciente 249,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 250,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Intenso,Nausea,1.0
+Paciente 251,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 252,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 253,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,0.0
+Paciente 254,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 255,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 256,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 257,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 258,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,1.0
+Paciente 259,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 260,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 261,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 262,"37,5 +",Tosse catarro amarelado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 263,"37,5 -",Tosse catarro esverdeado,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 264,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 265,"37,5 +",Sem tosse,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 266,"37,5 -",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 267,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,1.0
+Paciente 268,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 269,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,0.0
+Paciente 270,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,1.0
+Paciente 271,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 272,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 273,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 274,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,1.0
+Paciente 275,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 276,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 277,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 278,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 279,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 280,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 281,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 282,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 283,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,1.0
+Paciente 284,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 285,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,1.0
+Paciente 286,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Normal,Sem nausea,0.0
+Paciente 287,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Intenso,Nausea,1.0
+Paciente 288,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 289,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 290,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 291,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,1.0
+Paciente 292,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 293,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,1.0
+Paciente 294,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 295,"37,5 +",Sem tosse,Falta ar,Torax,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 296,"37,5 +",Tosse catarro amarelado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Intenso,Nausea,1.0
+Paciente 297,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 298,"37,5 +",Tosse seca,Respiracao normal,Peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 299,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,1.0
+Paciente 300,"37,5 -",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 301,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 302,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Sem nausea,0.0
+Paciente 303,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 304,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Intenso,Nausea,1.0
+Paciente 305,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 306,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 307,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Sem nausea,0.0
+Paciente 308,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Nausea,1.0
+Paciente 309,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Normal,Sem nausea,0.0
+Paciente 310,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 311,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 312,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 313,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 314,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 315,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 316,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 317,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 318,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 319,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 320,"37,5 -",Tosse seca,Falta ar,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 321,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Nausea,1.0
+Paciente 322,"37,5 +",Tosse seca,Respiracao normal,Torax,Sem mal estar,Nao,Intenso,Nausea,1.0
+Paciente 323,"37,5 +",Sem tosse,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 324,"37,5 +",Tosse seca,Respiracao normal,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 325,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Nausea,1.0
+Paciente 326,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Nao,Normal,Sem nausea,1.0
+Paciente 327,"37,5 +",Tosse seca,Respiracao normal,Torax,Mal estar,Sim,Normal,Sem nausea,0.0
+Paciente 328,"37,5 +",Tosse catarro esverdeado,Falta ar,Torax e peito,Mal estar,Nao,Normal,Nausea,1.0
+Paciente 329,"37,5 +",Tosse catarro esverdeado,Falta ar,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 330,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Normal,Sem nausea,0.0
+Paciente 331,"37,5 +",Tosse catarro amarelado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Intenso,Nausea,1.0
+Paciente 332,"37,5 +",Tosse seca,Falta ar,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 333,"37,5 +",Tosse catarro amarelado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 334,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 335,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 336,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Intenso,Nausea,1.0
+Paciente 337,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Normal,Sem nausea,0.0
+Paciente 338,"37,5 +",Tosse catarro amarelado,Falta ar,Peito,Mal estar,Sim,Normal,Sem nausea,0.0
+Paciente 339,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 340,"37,5 -",Sem tosse,Falta ar,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 341,"37,5 +",Tosse catarro esverdeado,Falta ar,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 342,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 343,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 344,"37,5 +",Tosse seca,Respiracao normal,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 345,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 346,"37,5 +",Tosse catarro amarelado,Falta ar,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 347,"37,5 +",Sem tosse,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 348,"37,5 -",Tosse seca,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 349,"37,5 +",Sem tosse,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 350,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 351,"37,5 +",Tosse seca,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 352,"37,5 -",Tosse catarro esverdeado,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 353,"37,5 +",Sem tosse,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 354,"37,5 +",Tosse catarro esverdeado,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 355,"37,5 +",Tosse seca,Respiracao normal,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 356,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 357,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 358,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 359,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 360,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 361,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 362,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 363,"37,5 -",Sem tosse,Falta ar,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 364,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 365,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 366,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 367,"37,5 +",Tosse seca,Falta ar,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 368,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 369,"37,5 +",Tosse catarro amarelado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 370,"37,5 +",Tosse catarro esverdeado,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 371,"37,5 -",Tosse seca,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 372,"37,5 +",Sem tosse,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 373,"37,5 +",Tosse catarro amarelado,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 374,"37,5 +",Tosse seca,Respiracao normal,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 375,"37,5 +",Tosse catarro amarelado,Falta ar,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 376,"37,5 -",Sem tosse,Respiracao normal,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 377,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 378,"37,5 -",Sem tosse,Falta ar,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 379,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 380,"37,5 +",Tosse seca,Falta ar,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 381,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 382,"37,5 +",Tosse catarro amarelado,Falta ar,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 383,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 384,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 385,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 386,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 387,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 388,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 389,"37,5 -",Sem tosse,Falta ar,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 390,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 391,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 392,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 393,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 394,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 395,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 396,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 397,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 398,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 399,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 400,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 401,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 402,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 403,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 404,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 405,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 406,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 407,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 408,"37,5 -",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 409,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 410,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 411,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 412,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 413,"37,5 -",Sem tosse,Falta ar,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 414,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 415,"37,5 -",Sem tosse,Falta ar,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 416,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 417,"37,5 +",Tosse seca,Falta ar,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 418,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 419,"37,5 -",Sem tosse,Respiracao normal,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 420,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 421,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 422,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 423,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 424,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 425,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Intenso,Nausea,1.0
+Paciente 426,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 427,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 428,"37,5 -",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,0.0
+Paciente 429,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,1.0
+Paciente 430,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 431,"37,5 +",Tosse seca,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 432,"37,5 -",Tosse catarro esverdeado,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 433,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 434,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 435,"37,5 +",Tosse seca,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 436,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 437,"37,5 +",Tosse catarro amarelado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 438,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 439,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 440,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 441,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 442,"37,5 +",Tosse seca,Respiracao normal,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 443,"37,5 +",Tosse catarro amarelado,Falta ar,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 444,"37,5 -",Sem tosse,Respiracao normal,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 445,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 446,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 447,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 448,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 449,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 450,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 451,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 452,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 453,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 454,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 455,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 456,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 457,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 458,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 459,"37,5 +",Tosse seca,Falta ar,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 460,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 461,"37,5 +",Tosse seca,Falta ar,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 462,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 463,"37,5 +",Tosse catarro amarelado,Falta ar,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 464,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 465,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 466,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Sem nausea,0.0
+Paciente 467,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 468,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 469,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 470,"37,5 -",Tosse catarro esverdeado,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 471,"37,5 -",Sem tosse,Respiracao normal,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 472,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 473,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 474,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 475,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 476,"37,5 +",Tosse catarro amarelado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 477,"37,5 -",Tosse catarro esverdeado,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 478,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 479,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 480,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 481,"37,5 -",Tosse seca,Falta ar,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 482,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 483,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Sem nausea,0.0
+Paciente 484,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Nausea,1.0
+Paciente 485,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Normal,Sem nausea,0.0
+Paciente 486,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Intenso,Nausea,1.0
+Paciente 487,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Normal,Sem nausea,0.0
+Paciente 488,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 489,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 490,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 491,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 492,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 493,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 494,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 495,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 496,"37,5 -",Sem tosse,Respiracao normal,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 497,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 498,"37,5 -",Sem tosse,Falta ar,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 499,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 500,"37,5 +",Tosse seca,Falta ar,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 501,"37,5 +",Tosse catarro esverdeado,Falta ar,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 502,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 503,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 504,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 505,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 506,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 507,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 508,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 509,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 510,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 511,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Normal,Sem nausea,0.0
+Paciente 512,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Intenso,Nausea,1.0
+Paciente 513,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Normal,Sem nausea,0.0
+Paciente 514,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Intenso,Nausea,1.0
+Paciente 515,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 516,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 517,"37,5 +",Tosse seca,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 518,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 519,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 520,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,1.0
+Paciente 521,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,0.0
+Paciente 522,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,1.0
+Paciente 523,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 524,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 525,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 526,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,1.0
+Paciente 527,"37,5 -",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 528,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 529,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 530,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 531,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,1.0
+Paciente 532,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 533,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 534,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 535,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,1.0
+Paciente 536,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 537,"37,5 +",Tosse seca,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 538,"37,5 -",Tosse catarro esverdeado,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 539,"37,5 -",Sem tosse,Respiracao normal,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 540,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 541,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 542,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 543,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 544,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 545,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 546,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 547,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 548,"37,5 -",Tosse seca,Falta ar,Torax,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 549,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 550,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 551,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 552,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 553,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 554,"37,5 -",Tosse catarro esverdeado,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 555,"37,5 +",Tosse seca,Respiracao normal,Torax,Mal estar,Sim,Normal,Nausea,1.0
+Paciente 556,"37,5 -",Sem tosse,Falta ar,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 557,"37,5 +",Tosse catarro amarelado,Falta ar,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 558,"37,5 +",Tosse seca,Falta ar,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 559,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 560,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Nausea,1.0
+Paciente 561,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 562,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Sem nausea,0.0
+Paciente 563,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 564,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 565,"37,5 +",Tosse catarro amarelado,Falta ar,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 566,"37,5 -",Sem tosse,Respiracao normal,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 567,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 568,"37,5 -",Tosse seca,Falta ar,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 569,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 570,"37,5 +",Tosse seca,Falta ar,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 571,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 572,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 573,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 574,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 575,"37,5 -",Sem tosse,Falta ar,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 576,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 577,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 578,"37,5 -",Tosse catarro esverdeado,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 579,"37,5 +",Sem tosse,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 580,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 581,"37,5 +",Tosse seca,Respiracao normal,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 582,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 583,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 584,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 585,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 586,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 587,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Normal,Sem nausea,0.0
+Paciente 588,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 589,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 590,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 591,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 592,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,0.0
+Paciente 593,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,1.0
+Paciente 594,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Sem nausea,0.0
+Paciente 595,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Nausea,1.0
+Paciente 596,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Sem nausea,0.0
+Paciente 597,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Nausea,1.0
+Paciente 598,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 599,"37,5 -",Tosse seca,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 600,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 601,"37,5 +",Tosse seca,Respiracao normal,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 602,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 603,"37,5 +",Tosse catarro amarelado,Falta ar,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 604,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 605,"37,5 +",Sem tosse,Respiracao normal,Peito,Sem mal estar,Nao,Intenso,Nausea,1.0
+Paciente 606,"37,5 +",Tosse seca,Respiracao normal,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 607,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 608,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 609,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 610,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 611,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 612,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 613,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 614,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 615,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 616,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 617,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Sem nausea,0.0
+Paciente 618,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Nausea,1.0
+Paciente 619,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Normal,Sem nausea,0.0
+Paciente 620,"37,5 +",Tosse catarro esverdeado,Falta ar,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 621,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 622,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 623,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 624,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 625,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 626,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 627,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 628,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 629,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 630,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 631,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 632,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 633,"37,5 -",Tosse seca,Falta ar,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 634,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 635,"37,5 +",Tosse seca,Falta ar,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 636,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 637,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 638,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 639,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 640,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Normal,Sem nausea,0.0
+Paciente 641,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 642,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 643,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Nausea,1.0
+Paciente 644,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Normal,Sem nausea,0.0
+Paciente 645,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Intenso,Nausea,1.0
+Paciente 646,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Normal,Sem nausea,0.0
+Paciente 647,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 648,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 649,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Nausea,1.0
+Paciente 650,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 651,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 652,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 653,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 654,"37,5 +",Sem tosse,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 655,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 656,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 657,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 658,"37,5 -",Sem tosse,Respiracao normal,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 659,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 660,"37,5 +",Tosse seca,Falta ar,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 661,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 662,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 663,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Intenso,Nausea,1.0
+Paciente 664,"37,5 -",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 665,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 666,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 667,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 668,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 669,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 670,"37,5 +",Sem tosse,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 671,"37,5 -",Tosse catarro esverdeado,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 672,"37,5 +",Sem tosse,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 673,"37,5 +",Tosse catarro amarelado,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 674,"37,5 +",Tosse seca,Respiracao normal,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 675,"37,5 +",Tosse catarro esverdeado,Falta ar,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 676,"37,5 -",Sem tosse,Falta ar,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 677,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 678,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 679,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 680,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 681,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 682,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 683,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 684,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 685,"37,5 -",Tosse seca,Falta ar,Torax,Mal estar,Sim,Normal,Sem nausea,0.0
+Paciente 686,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Intenso,Nausea,1.0
+Paciente 687,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Normal,Sem nausea,0.0
+Paciente 688,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Intenso,Nausea,1.0
+Paciente 689,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 690,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 691,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 692,"37,5 +",Tosse seca,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 693,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 694,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 695,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 696,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,1.0
+Paciente 697,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 698,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 699,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 700,"37,5 +",Tosse seca,Respiracao normal,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 701,"37,5 +",Tosse catarro amarelado,Falta ar,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 702,"37,5 -",Sem tosse,Respiracao normal,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 703,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 704,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 705,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 706,"37,5 +",Tosse seca,Respiracao normal,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 707,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 708,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 709,"37,5 +",Tosse catarro esverdeado,Falta ar,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 710,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 711,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 712,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 713,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 714,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 715,"37,5 -",Sem tosse,Falta ar,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 716,"37,5 +",Tosse catarro esverdeado,Falta ar,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 717,"37,5 +",Tosse catarro amarelado,Falta ar,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 718,"37,5 +",Tosse seca,Respiracao normal,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 719,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 720,"37,5 +",Tosse catarro amarelado,Falta ar,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 721,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 722,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 723,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 724,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 725,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 726,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 727,"37,5 -",Sem tosse,Falta ar,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 728,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 729,"37,5 +",Tosse seca,Respiracao normal,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 730,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 731,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 732,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 733,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 734,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 735,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 736,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Normal,Sem nausea,0.0
+Paciente 737,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Nausea,1.0
+Paciente 738,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Sem nausea,0.0
+Paciente 739,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Nausea,1.0
+Paciente 740,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,0.0
+Paciente 741,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Nausea,1.0
+Paciente 742,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Sem nausea,0.0
+Paciente 743,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 744,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 745,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Intenso,Nausea,1.0
+Paciente 746,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 747,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 748,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 749,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 750,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 751,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 752,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Sem nausea,0.0
+Paciente 753,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 754,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 755,"37,5 +",Sem tosse,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 756,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 757,"37,5 +",Tosse seca,Falta ar,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 758,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 759,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 760,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 761,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 762,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,0.0
+Paciente 763,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 764,"37,5 +",Tosse catarro amarelado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 765,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 766,"37,5 -",Tosse catarro esverdeado,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 767,"37,5 +",Sem tosse,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 768,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 769,"37,5 +",Tosse seca,Falta ar,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 770,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 771,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 772,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 773,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 774,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 775,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Normal,Sem nausea,0.0
+Paciente 776,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 777,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 778,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 779,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 780,"37,5 -",Tosse catarro esverdeado,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 781,"37,5 +",Sem tosse,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 782,"37,5 +",Tosse catarro amarelado,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 783,"37,5 +",Tosse seca,Respiracao normal,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 784,"37,5 +",Tosse catarro amarelado,Falta ar,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 785,"37,5 -",Sem tosse,Falta ar,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 786,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 787,"37,5 -",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 788,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 789,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 790,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 791,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 792,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 793,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 794,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,0.0
+Paciente 795,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 796,"37,5 +",Tosse catarro amarelado,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 797,"37,5 +",Tosse seca,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 798,"37,5 +",Tosse catarro esverdeado,Falta ar,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 799,"37,5 -",Sem tosse,Falta ar,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 800,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 801,"37,5 +",Tosse seca,Falta ar,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 802,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 803,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 804,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 805,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 806,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 807,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 808,"37,5 -",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Sem nausea,0.0
+Paciente 809,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 810,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 811,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Nausea,1.0
+Paciente 812,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 813,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 814,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Normal,Sem nausea,0.0
+Paciente 815,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 816,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 817,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 818,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 819,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 820,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 821,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 822,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Normal,Sem nausea,0.0
+Paciente 823,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,1.0
+Paciente 824,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,0.0
+Paciente 825,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,1.0
+Paciente 826,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Sem nausea,0.0
+Paciente 827,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Nausea,1.0
+Paciente 828,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Sem nausea,0.0
+Paciente 829,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 830,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 831,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,1.0
+Paciente 832,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 833,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 834,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 835,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 836,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 837,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Nausea,1.0
+Paciente 838,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,0.0
+Paciente 839,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,1.0
+Paciente 840,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 841,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 842,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 843,"37,5 +",Tosse seca,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 844,"37,5 -",Tosse catarro esverdeado,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 845,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 846,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 847,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 848,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Normal,Sem nausea,0.0
+Paciente 849,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 850,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 851,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 852,"37,5 +",Tosse catarro esverdeado,Falta ar,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 853,"37,5 -",Sem tosse,Falta ar,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 854,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 855,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 856,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 857,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 858,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 859,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 860,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 861,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Normal,Sem nausea,0.0
+Paciente 862,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 863,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Nausea,1.0
+Paciente 864,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 865,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 866,"37,5 -",Tosse catarro esverdeado,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 867,"37,5 -",Sem tosse,Respiracao normal,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 868,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 869,"37,5 +",Tosse seca,Falta ar,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 870,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 871,"37,5 -",Sem tosse,Falta ar,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 872,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 873,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 874,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 875,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 876,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 877,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Intenso,Nausea,1.0
+Paciente 878,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 879,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 880,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 881,"37,5 +",Sem tosse,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 882,"37,5 +",Tosse catarro amarelado,Falta ar,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 883,"37,5 +",Tosse seca,Respiracao normal,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 884,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 885,"37,5 -",Sem tosse,Falta ar,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 886,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 887,"37,5 +",Tosse seca,Falta ar,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 888,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 889,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 890,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 891,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,1.0
+Paciente 892,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 893,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 894,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 895,"37,5 +",Tosse seca,Falta ar,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 896,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 897,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Normal,Sem nausea,0.0
+Paciente 898,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Intenso,Nausea,1.0
+Paciente 899,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 900,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 901,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Sem nausea,0.0
+Paciente 902,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 903,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 904,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,1.0
+Paciente 905,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 906,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 907,"37,5 +",Sem tosse,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 908,"37,5 +",Tosse catarro amarelado,Falta ar,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 909,"37,5 +",Tosse seca,Respiracao normal,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 910,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 911,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 912,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 913,"37,5 -",Tosse seca,Falta ar,Torax,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 914,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 915,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 916,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 917,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Intenso,Nausea,1.0
+Paciente 918,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 919,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 920,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Normal,Sem nausea,0.0
+Paciente 921,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 922,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 923,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Nausea,1.0
+Paciente 924,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Sem nausea,0.0
+Paciente 925,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Nausea,1.0
+Paciente 926,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 927,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 928,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 929,"37,5 +",Tosse catarro amarelado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 930,"37,5 -",Tosse catarro esverdeado,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 931,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 932,"37,5 +",Sem tosse,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 933,"37,5 -",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 934,"37,5 +",Tosse seca,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 935,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 936,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 937,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,1.0
+Paciente 938,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 939,"37,5 +",Sem tosse,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 940,"37,5 +",Tosse catarro amarelado,Falta ar,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 941,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Normal,Sem nausea,0.0
+Paciente 942,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 943,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 944,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Nausea,1.0
+Paciente 945,"37,5 -",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 946,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 947,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 948,"37,5 +",Tosse seca,Respiracao normal,Torax,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 949,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 950,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 951,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 952,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Intenso,Nausea,1.0
+Paciente 953,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Sem nausea,0.0
+Paciente 954,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,1.0
+Paciente 955,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 956,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 957,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 958,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 959,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 960,"37,5 -",Tosse seca,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 961,"37,5 +",Sem tosse,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 962,"37,5 +",Tosse catarro amarelado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 963,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 964,"37,5 +",Tosse catarro amarelado,Falta ar,Peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 965,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 966,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 967,"37,5 -",Tosse seca,Falta ar,Torax,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 968,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 969,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Sem nausea,0.0
+Paciente 970,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Nausea,1.0
+Paciente 971,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 972,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 973,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 974,"37,5 +",Tosse seca,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 975,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 976,"37,5 +",Tosse catarro amarelado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 977,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 978,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 979,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 980,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 981,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Sem nausea,0.0
+Paciente 982,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 983,"37,5 -",Tosse catarro amarelado,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 984,"37,5 -",Sem tosse,Respiracao normal,Sem dor,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 985,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 986,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 987,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 988,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 989,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 990,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 991,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Intenso,Nausea,1.0
+Paciente 992,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 993,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,1.0
+Paciente 994,"37,5 +",Sem tosse,Respiracao normal,Peito,Sem mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 995,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Sim,Intenso,Nausea,1.0
+Paciente 996,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Nao,Normal,Sem nausea,0.0
+Paciente 997,"37,5 +",Tosse catarro amarelado,Respiracao normal,Peito,Sem mal estar,Nao,Intenso,Nausea,1.0
+Paciente 998,"37,5 -",Sem tosse,Falta ar,Sem dor,Mal estar,Sim,Intenso,Nausea,0.0
+Paciente 999,"37,5 +",Tosse catarro esverdeado,Respiracao normal,Torax e peito,Sem mal estar,Nao,Normal,Nausea,1.0
+Paciente 1000,"37,5 +",Tosse seca,Falta ar,Torax,Mal estar,Sim,Intenso,Sem nausea,0.0

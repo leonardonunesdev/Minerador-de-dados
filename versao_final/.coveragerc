@@ -1,0 +1,3 @@
+[run]
+source = versao_final
+omit = versao_final/test*

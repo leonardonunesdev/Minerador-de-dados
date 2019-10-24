@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(21, 45, 184)!important;
+}
+
+.caixa-sintomas{
+    margin-bottom: 20px;
+}
+
+.caixa-resultado {
+    border: 1px solid black;
+    min-height: 450px!important;
+    margin-bottom: 20px;
+}
+
+.container{
+    margin: 50px;
+    border-radius: 9px;
+    background-color: white;
+}
