@@ -1,4 +1,7 @@
+Site do sistema:
 http://localhost:6543/
+
+Para debugar o código:
 ${workspaceFolder}\versao_final\development.ini
 
 Executar o Servidor:

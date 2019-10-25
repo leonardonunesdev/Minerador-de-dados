@@ -14,7 +14,6 @@ $(function(){
     document.getElementById("inpFebre").value = 37.5;
 
     btnConsultar.on("click", function(){
-        var resultadoHTML = "<p>Suporte: {0}%</p><p>Regra: {1}</p>";
         var febre = "";
 
         if(parseFloat(inpFebre.val()) > 37.5){
@@ -40,18 +39,20 @@ $(function(){
             },
             dataType: 'json',
             success : function(data){
-                alert("Foi");
+                console.log("Apriori");
+                data = JSON.parse(data);
+                console.log(data);
             },
             error: function(){
                 alert("Erro");
             }
         });
 
-        /* $.ajax({
+        $.ajax({
             url     : 'regra_fp_growth',
             type    : 'POST',
             data    : {
-                febre: inpFebre.val(),
+                febre: febre,
                 tosse: selTosse.val(),
                 faltaAr: selFaltaAr.val(),
                 dor: selDor.val(),
@@ -62,14 +63,14 @@ $(function(){
             },
             dataType: 'json',
             success : function(data){
-                var json = JSON.parse(data);
-                resultadoHTML = resultadoHTML.replace("{0}", json.valorSuporte).replace("{1}", json.descricao);
-                divFPGrowthResultados.html(resultadoHTML);
+                console.log("FP-Growth");
+                data = JSON.parse(data);
+                console.log(data);
             },
             error: function(){
                 alert("Erro");
             }
-        }); */
+        });
     })
 
 })
