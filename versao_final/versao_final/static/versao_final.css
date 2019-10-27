@@ -1,19 +1,87 @@
-body{
+html{
+    overflow-y: scroll;
+}
+
+.loading-screen {
+    position: absolute;
+    float:inherit;
+    z-index: 998;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.loading-screen-box{
+    z-index: 999;
+    opacity: 1!important;
+    background-color: rgb(21, 45, 184, 1)!important;
+}
+
+body {
     background-color: rgb(21, 45, 184)!important;
 }
 
-.caixa-sintomas{
+.caixas-resultados-head {
+  text-align: center;
+}
+
+.caixa-sintomas {
     margin-bottom: 20px;
 }
 
 .caixa-resultado {
-    border: 1px solid black;
-    min-height: 450px!important;
     margin-bottom: 20px;
 }
 
-.container{
-    margin: 50px;
+.card-header {
+    border: 1px solid rgb(245, 245, 245);
+    background-color: rgb(245, 245, 245);
+    padding-left: 10px;
+    cursor: pointer;
+    margin: 1px;
+    margin-bottom: 0;
+    height: 50px;
+}
+
+.card-header:hover {
+    border-color: lightgrey;
+}
+
+.card-body {
+    padding: 10px;
+    padding-bottom: 0;
+    border: 1px solid rgb(245, 245, 245);
+    margin: 1px;
+    margin-top: 0;
+    height: 188px;
+    overflow-y: scroll;
+}
+
+.card-table{
+    padding:0!important;
+}
+
+.first{
+    overflow-y: hidden;
+}
+
+.card-header > h5 > button {
+    padding:0;
+    text-decoration: none!important;
+    color: black;
+}
+
+.container {
     border-radius: 9px;
     background-color: white;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+    padding: 10px;
+}
+
+.col-md-6 {
+    padding: 0;
 }

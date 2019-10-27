@@ -1,113 +1,221 @@
 <!DOCTYPE html>
-<html lang="${request.locale_name}">
+<html lang='${request.locale_name}'>
   <head>
+
+    <title>Minerador doença Pneumonia</title>
+
      <!-- CSS -->
-      <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-      <style>
-        body{
-            background-color: rgb(21, 45, 184)!important;
-        }
-
-        .caixa-sintomas{
-            margin-bottom: 20px;
-        }
-
-        .caixa-resultado {
-            border: 1px solid black;
-            min-height: 450px!important;
-            margin-bottom: 20px;
-        }
-
-        .container{
-            margin: 50px;
-            border-radius: 9px;
-            background-color: white;
-        }
-      </style>
+      <link rel='stylesheet' type='text/css' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css'>
+      <link rel='stylesheet' type='text/css' href='static/versao_final.css'>
 
       <!-- JS -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-      <script type="text/javascript" src="static/versao_final.js"></script>
+      <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+      <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js'></script>
+      <script src='https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js'></script>
+      <script src='https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap.min.js'></script>
+      <script type='text/javascript' src='static/versao_final.js'></script>
   </head>
   <body>
-    <div class="container">
-        <div class="row caixa-sintomas">
-            <div class="col-md-12">
+    <div class="col-md-12 loading-screen" style="display:none">
+        <div class="col-md-5 loading-screen-box">
+            <p>CArregando dados</p>
+        </div>
+    </div>
+    <div class='container'>
+        <div class='row caixa-sintomas'>
+            <div class='col-md-12'>
                 <h3>Sintomas</h3>
-                <div class="form-group col-md-3">
-                    <label for="inpFebre">Febre</label>
-                    <input step="0.1" min="35" max="40" type="number" class="form-control" id="inpFebre">
+                <div class='form-group col-md-3'>
+                    <label for='inpFebre'>Febre</label>
+                    <input step='0.1' min='35' max='40' type='number' class='form-control' id='inpFebre'>
                 </div>
-                <div class="form-group col-md-3">
-                    <label for="selTosse">Tosse</label>
-                    <select class="form-control" id="selTosse">
-                        <option value="Sem tosse">Sem tosse</option>
-                        <option value="Tosse seca">Tosse seca</option>
-                        <option value="Tosse catarro amarelado">Tosse catarro amarelado</option>
-                        <option value="Tosse catarro esverdeado">Tosse catarro esverdeado</option>
+                <div class='form-group col-md-3'>
+                    <label for='selTosse'>Tosse</label>
+                    <select class='form-control' id='selTosse'>
+                        <option value='Sem tosse'>Sem tosse</option>
+                        <option value='Tosse seca'>Tosse seca</option>
+                        <option value='Tosse catarro amarelado'>Tosse catarro amarelado</option>
+                        <option value='Tosse catarro esverdeado'>Tosse catarro esverdeado</option>
                     </select>
                 </div>
-                <div class="form-group col-md-3">
-                    <label for="selFaltaAr">Falta de ár/dificuldade para respirar</label>
-                    <select class="form-control" id="selFaltaAr">
-                        <option value="Respiracao normal">Respiração normal</option>
-                        <option value="Falta ar">Falta de ár</option>
+                <div class='form-group col-md-3'>
+                    <label for='selFaltaAr'>Falta de ár/dificuldade para respirar</label>
+                    <select class='form-control' id='selFaltaAr'>
+                        <option value='Respiracao normal'>Respiração normal</option>
+                        <option value='Falta ar'>Falta de ár</option>
                     </select>
                 </div>
-                <div class="form-group col-md-3">
-                    <label for="selDor">Dor</label>
-                    <select class="form-control" id="selDor">
-                        <option value="Sem dor">Sem dor</option>
-                        <option value="Peito">Dor no peito</option>
-                        <option value="Torax">Dor no tórax</option>
-                        <option value="Torax e Peito">Dor no tórax e peito</option>
+                <div class='form-group col-md-3'>
+                    <label for='selDor'>Dor</label>
+                    <select class='form-control' id='selDor'>
+                        <option value='Sem dor'>Sem dor</option>
+                        <option value='Peito'>Dor no peito</option>
+                        <option value='Torax'>Dor no tórax</option>
+                        <option value='Torax e Peito'>Dor no tórax e peito</option>
                     </select>
                 </div>
-                <div class="form-group col-md-3">
-                    <label for="selMalEstar">Mal-estar generalizado</label>
-                    <select class="form-control" id="selMalEstar">
-                        <option value="Sem mal estar">Sem mal-estar</option>
-                        <option value="Mal estar">Mal-estar</option>
+                <div class='form-group col-md-3'>
+                    <label for='selMalEstar'>Mal-estar generalizado</label>
+                    <select class='form-control' id='selMalEstar'>
+                        <option value='Sem mal estar'>Sem mal-estar</option>
+                        <option value='Mal estar'>Mal-estar</option>
                     </select>
                 </div>
-                <div class="form-group col-md-3">
-                    <label for="selFraqueza">Fraqueza</label>
-                    <select class="form-control" id="selFraqueza">
-                        <option value="Nao">Não</option>
-                        <option value="Sim">Sim</option>
+                <div class='form-group col-md-3'>
+                    <label for='selFraqueza'>Fraqueza</label>
+                    <select class='form-control' id='selFraqueza'>
+                        <option value='Nao'>Não</option>
+                        <option value='Sim'>Sim</option>
                     </select>
                 </div>
-                <div class="form-group col-md-3">
-                    <label for="selSuor">Suor</label>
-                    <select class="form-control" id="selSuor">
-                        <option value="Normal">Normal</option>
-                        <option value="Intenso">Intenso</option>
+                <div class='form-group col-md-3'>
+                    <label for='selSuor'>Suor</label>
+                    <select class='form-control' id='selSuor'>
+                        <option value='Normal'>Normal</option>
+                        <option value='Intenso'>Intenso</option>
                     </select>
                 </div>
-                <div class="form-group col-md-3">
-                    <label for="selNauseaVomito">Náusea e Vômito</label>
-                    <select class="form-control" id="selNauseaVomito">
-                        <option value="Sem Nausea">Sem náusea</option>
-                        <option value="Nausea">Náusea e vômito</option>
+                <div class='form-group col-md-3'>
+                    <label for='selNauseaVomito'>Náusea e Vômito</label>
+                    <select class='form-control' id='selNauseaVomito'>
+                        <option value='Sem Nausea'>Sem náusea</option>
+                        <option value='Nausea'>Náusea e vômito</option>
                     </select>
                 </div>
-                <div class="col-md-12">
-                    <button id="btnConsultar" type="submit" class="btn btn-primary">Consultar</button>
+                <div class='col-md-12'>
+                    <button id='btnConsultar' type='submit' class='btn btn-primary'>Consultar</button>
                 </div>
             </div>
         </div>
-        <div class="row caixas-resultados">
-            <div class="col-md-6">
-                <h3>Resultados Apriori</h3>
-                <div class="col-md-12 caixa-resultado" id="divAprioriResultados">
-
+        <div class='row caixas-resultados'>
+            <div class='col-md-12'>
+                <div class='caixas-resultados-head'>
+                  <h3>Resultados Apriori</h3>
+                </div>
+                <div class='caixa-resultado' id='divAprioriResultados'>
+                    <div id='accordion'>
+                        <div class='card'>
+                            <div class='card-header' id='headingAprioriOne' data-toggle='collapse' data-target='#collapseAprioriOne' aria-expanded='true' aria-controls='collapseAprioriOne'>
+                                <h5 class='mb-0'>
+                                    <button class='btn btn-link' >
+                                    Informações gerais
+                                    </button>
+                                </h5>
+                            </div>
+                        
+                            <div id='collapseAprioriOne' class='collapse' aria-labelledby='headingAprioriOne' data-parent='#accordion'>
+                                <div class='card-body first'>
+                                    <p><strong>Nº de regras geradas: </strong>-</p>
+                                    <p><strong>Nº de regras analisadas: </strong>-</p>
+                                    <p><strong>Nº regras Pneumonia positiva: </strong>-</p>
+                                    <p><strong>Nº regras Pneumonia negativa: </strong>-</p>
+                                    <p><strong>Chance de Pneumonia positiva: </strong>-</p>
+                                    <p><strong>Chance de Pneumonia negativa: </strong>-</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <div class='card-header' id='headingAprioriTwo'  data-toggle='collapse' data-target='#collapseAprioriTwo' aria-expanded='false' aria-controls='collapseAprioriTwo'>
+                                <h5 class='mb-0'>
+                                    <button class='btn btn-link collapsed'>
+                                    <p>Regras analisadas pneumonia positiva <span class='badge badge-positive'>0</span></p>
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id='collapseAprioriTwo' class='collapse' aria-labelledby='headingAprioriTwo' data-parent='#accordion'>
+                                <div class='card-body card-table'>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <div class='card-header' id='headingAprioriThree' data-toggle='collapse' data-target='#collapseAprioriThree' aria-expanded='false' aria-controls='collapseAprioriThree'>
+                                <h5 class='mb-0'>
+                                    <button class='btn btn-link collapsed' >
+                                    Regras analisadas pneumonia negativa <span class='badge badge-negative'>0</span>
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id='collapseAprioriThree' class='collapse' aria-labelledby='headingAprioriThree' data-parent='#accordion'>
+                                <div class='card-body card-table'>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <h3>Resultados FP Growth</h3>
-                <div class="col-md-12 caixa-resultado" id="divFPGrowthResultados">
-
+            <div class='col-md-12'>
+                <div class='caixas-resultados-head'>
+                  <h3>Resultados FP-Growth</h3>
+                </div>
+                <div class='caixa-resultado' id='divFPGrowthResultados'>
+                    <div id='accordion'>
+                        <div class='card'>
+                            <div class='card-header' id='headingFpGrowthOne' data-toggle='collapse' data-target='#collapseFpGrowthOne' aria-expanded='true' aria-controls='collapseFpGrowthOne'>
+                                <h5 class='mb-0'>
+                                    <button class='btn btn-link' >
+                                    Informações gerais
+                                    </button>
+                                </h5>
+                            </div>
+                        
+                            <div id='collapseFpGrowthOne' class='collapse' aria-labelledby='headingFpGrowthOne' data-parent='#accordion'>
+                                <div class='card-body first'>
+                                    <p><strong>Nº de regras geradas: </strong>-</p>
+                                    <p><strong>Nº de regras analisadas: </strong>-</p>
+                                    <p><strong>Nº regras Pneumonia positiva: </strong>-</p>
+                                    <p><strong>Nº regras Pneumonia negativa: </strong>-</p>
+                                    <p><strong>Chance de Pneumonia positiva: </strong>-</p>
+                                    <p><strong>Chance de Pneumonia negativa: </strong>-</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <div class='card-header' id='headingFpGrowthTwo'  data-toggle='collapse' data-target='#collapseFpGrowthTwo' aria-expanded='false' aria-controls='collapseFpGrowthTwo'>
+                                <h5 class='mb-0'>
+                                    <button class='btn btn-link collapsed'>
+                                    Regras analisadas pneumonia positiva <span class='badge badge-positive'>0</span>
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id='collapseFpGrowthTwo' class='collapse' aria-labelledby='headingFpGrowthTwo' data-parent='#accordion'>
+                                <div class='card-body card-table'>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <div class='card-header' id='headingFpGrowthThree' data-toggle='collapse' data-target='#collapseFpGrowthThree' aria-expanded='false' aria-controls='collapseFpGrowthThree'>
+                                <h5 class='mb-0'>
+                                    <button class='btn btn-link collapsed' >
+                                    Regras analisadas pneumonia negativa <span class='badge badge-negative'>0</span>
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id='collapseFpGrowthThree' class='collapse' aria-labelledby='headingFpGrowthThree' data-parent='#accordion'>
+                                <div class='card-body card-table'>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='col-md-12'>
+                <div class='card'>
+                    <div class='card-header' id='headingComparative' data-toggle='collapse' data-target='#collapseComparative' aria-expanded='false' aria-controls='collapseComparative'>
+                        <h5 class='mb-0'>
+                            <button class='btn btn-link collapsed'>
+                            Gráficos comparativos
+                            </button>
+                        </h5>
+                    </div>
+                    <div id='collapseComparative' class='collapse' aria-labelledby='headingComparative' data-parent='#accordion'>
+                        <div class='card-body'>
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

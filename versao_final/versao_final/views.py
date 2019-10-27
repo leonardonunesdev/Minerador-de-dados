@@ -31,7 +31,7 @@ class Regra:
         self.pneumonia = pneumonia # Armazena os valores 0 ou 1 de acordo com a regra analisada
 
 class Resultado:
-    def __init__(self, regrasPneumonia, regrasNaoPneumonia):
+    def __init__(self, regrasPneumonia, regrasNaoPneumonia, qtRegrasGeradas, qtRegrasAnalisadas):
         self.regrasPneumonia = []
         for regraPneumonia in regrasPneumonia: #Armazena as regras analisadas que tem pneumonia
             self.regrasPneumonia.append(regraPneumonia)
@@ -39,6 +39,9 @@ class Resultado:
         self.regrasNaoPneumonia = []
         for regraNaoPneumonia in regrasNaoPneumonia: #Armazena as regras analisadas que não tem pneumonia
             self.regrasNaoPneumonia.append(regraNaoPneumonia)
+        
+        self.qtRegrasGeradas = qtRegrasGeradas
+        self.qtRegrasAnalisadas = qtRegrasAnalisadas
 
     def toJson(self): #Organiza para converter em JSON
         regrasPneumoniaJson = []
@@ -74,7 +77,9 @@ class Resultado:
 
         return {
             "regrasPneumonia": regrasPneumoniaJson,
-            "regrasNaoPneumonia": regrasNaoPneumoniaJson
+            "regrasNaoPneumonia": regrasNaoPneumoniaJson,
+            "qtRegrasGeradas": self.qtRegrasGeradas,
+            "qtRegrasAnalisadas": self.qtRegrasAnalisadas
         }
 
 #Converte a base de dados de .xls para .csv
@@ -125,6 +130,8 @@ def geraJsonComAsRegrasAnalisadas(biblioteca, request):
     regrasMapeada = [] #Lista para armazenar as regras mapeadas no objeto Regra
     regrasPneumonia = [] #Lista para armazenar as regras que possuem os sintomas iguais ao sintomas de entrada do paciente e que tem pneumonia positiva
     regrasNaoPneumonia = [] #Lista para armazenar as regras que possuem os sintomas iguais ao sintomas de entrada do paciente e que tem pneumonia negativa
+    qtRegrasGeradas = 0 #Guarda a quantidade de regras que cada biblioteca gerou
+    qtRegrasAnalisadas = 0 #Guarda a quantidade de regras que possuem informações de pneumonia 0 ou 1 (regras relevantes para o algoritmo)
 
     for index, linha in bancoDados.iterrows(): #Pega todas as linhas do excel e adiciona em uma lista
         listaLinhasBancoDados.append((linha["Nome"],
@@ -144,24 +151,28 @@ def geraJsonComAsRegrasAnalisadas(biblioteca, request):
 
         if biblioteca == "Apriori":
             regras = apriori(listaLinhasBancoDados, min_support= suporte,  min_confidence=1) #Usa a API do apriori para gerar as regras com confiança de 100% e suporte de 10% até 100%
+            regrasMapeadasBiblioteca = mapeiaRegrasBiblioteca(regras[1], suporte, "Apriori")
 
-            for regraMapeada in mapeiaRegrasBiblioteca(regras[1], suporte): #Mapeia as regras em objetos Regra
-                regrasMapeada.append(regraMapeada)
+            for regraMapeadaBiblioteca in regrasMapeadasBiblioteca: #Mapeia as regras em objetos Regra
+                regrasMapeada.append(regraMapeadaBiblioteca)
         else:
             padroes = pyfpgrowth.find_frequent_patterns(listaLinhasBancoDados, 250)
             regras = pyfpgrowth.generate_association_rules(padroes, suporte) #Usa a API do FP growth para gerar as regras com confiança de 100%
+            regrasMapeadasBiblioteca = mapeiaRegrasBiblioteca(regras, suporte, "FP-Growth")
 
-            for regraMapeada in mapeiaRegrasBiblioteca(regras, suporte): #Mapeia as regras em objetos Regra
-                regrasMapeada.append(regraMapeada)
+            for regraMapeadaBiblioteca in regrasMapeadasBiblioteca: #Mapeia as regras em objetos Regra
+                regrasMapeada.append(regraMapeadaBiblioteca)
 
         suporte += 0.1
 
         if (suporte > 1.0):
             break
-                
+
+    qtRegrasGeradas = len(regrasMapeada)    
+
     for regraMapeada in regrasMapeada:
 
-        numeroSintomasEntradaUsuario = 0 #Contador para controlar se a regra possui todos sintomas iguais aos sintomas de entrada do paciente
+        numeroSintomasEntradaUsuario = 0 #Contador para controlar se a regra possui os sintomas semelhantes aos sintomas de entrada do paciente
 
         #Verifica quais informações dos sintomas de entrada do usuário são compativeis com os sintomas da regras
         if sintomas.febre in regraMapeada.febre:
@@ -182,13 +193,15 @@ def geraJsonComAsRegrasAnalisadas(biblioteca, request):
             numeroSintomasEntradaUsuario += 1
 
         #Verifica se seis dos sintomas das regras são compativeis com os sintomas de entrada do usuário
-        if numeroSintomasEntradaUsuario >= 3:
+        if numeroSintomasEntradaUsuario >= 2:
             if regraMapeada.pneumonia == "0": #Divide as regras que possuem como resultado Sim para Pneumonia em um lista e as regras que possuem como resultado Não para Pneumonia em outra lista
                 regrasNaoPneumonia.append(regraMapeada)
             else:
                 regrasPneumonia.append(regraMapeada)
 
-    resultado = Resultado(regrasPneumonia, regrasNaoPneumonia)    
+    qtRegrasAnalisadas = len(regrasNaoPneumonia) + len(regrasPneumonia)
+
+    resultado = Resultado(regrasPneumonia, regrasNaoPneumonia,qtRegrasGeradas, qtRegrasAnalisadas)    
     resultadoJSON = json.dumps(resultado.toJson())
 
     return resultadoJSON   
@@ -196,7 +209,7 @@ def geraJsonComAsRegrasAnalisadas(biblioteca, request):
 
 
 
-def mapeiaRegrasBiblioteca(regras, suporte):
+def mapeiaRegrasBiblioteca(regras, suporte, biblioteca):
     regrasMapeada = [] #Lista para armazenar as regras mapeadas no objeto Regra
 
     #Variáveis para organizar os objetos
@@ -211,74 +224,76 @@ def mapeiaRegrasBiblioteca(regras, suporte):
     pneumonia = ""
 
     for regra in regras: #For para buscar todas as regras que contém a informação 0 ou 1 referente a contração ou não de pneumonia
-
-        strRegra = str(regra).split("(")[0] #Pega a parte importante da regra para analisar
+        if biblioteca == "Apriori":
+            strRegra = str(regra).split("(")[0] #Pega a parte importante da regra para analisar
+        else:
+            strRegra = regra
 
         if strRegra == '': #Caso seja regras do FP-Growth, pois os formatos das regras são diferentes
             strRegra = regra
 
-        if ("0" in str(strRegra) or "1" in str(strRegra)):
+        if ("0" in strRegra or "1" in strRegra):
             
             #Mapeia Febre
-            if ("37,5 +" in str(strRegra)):
+            if ("37,5 +" in strRegra):
                 febre = "37,5 +"
-            elif ("37,5 -" in str(strRegra)):
+            elif ("37,5 -" in strRegra):
                 febre = "37,5 -"
 
             #Mapeia Tosse
-            if ("Sem tosse" in str(strRegra)):
+            if ("Sem tosse" in strRegra):
                 tosse = "Sem tosse"
-            elif ("Tosse seca" in str(strRegra)):
+            elif ("Tosse seca" in strRegra):
                 tosse = "Tosse seca"
-            elif ("Tosse catarro amarelado" in str(strRegra)):
+            elif ("Tosse catarro amarelado" in strRegra):
                 tosse = "Tosse catarro amarelado"
-            elif ("Tosse catarro esverdeado" in str(strRegra)):
+            elif ("Tosse catarro esverdeado" in strRegra):
                 tosse = "Tosse catarro esverdeado"
 
             #Mapeia Falta Ar
-            if ("Falta ar" in str(strRegra)):
-                faltaAr = "Falta Ar"
-            elif ("Respiracao normal" in str(strRegra)):
+            if ("Falta ar" in strRegra):
+                faltaAr = "Falta ar"
+            elif ("Respiracao normal" in strRegra):
                 faltaAr = "Respiracao normal"
 
             #Mapeia Dor
-            if ("Sem dor" in str(strRegra)):
+            if ("Torax e peito" in strRegra):
+                dor = "Torax a peito"
+            elif ("Sem dor" in strRegra):
                 dor = "Sem dor"
-            elif ("Peito" in str(strRegra)):
+            elif ("Peito" in strRegra):
                 dor = "Peito"
-            elif ("Torax" in str(strRegra)):
+            elif ("Torax" in strRegra):
                 dor = "Torax"
-            elif ("Torax e Peito" in str(strRegra)):
-                dor = "Torax a Peito"
-
+            
             #Mapeia Mal Estar
-            if ("Mal estar" in str(strRegra)):
-                malEstar = "Mal estar"
-            elif ("Sem mal estar" in str(strRegra)):
+            if ("Sem mal estar" in strRegra):
                 malEstar = "Sem mal estar"
+            elif ("Mal estar" in strRegra):
+                malEstar = "Mal estar"
 
             #Mapeia Fraqueza
-            if ("Sim" in str(strRegra)):
+            if ("Sim" in strRegra):
                 fraqueza = "Sim"
-            elif ("Nao" in str(strRegra)):
+            elif ("Nao" in strRegra):
                 fraqueza = "Nao"
 
             #Mapeia suor
-            if ("Normal" in str(strRegra)):
+            if ("Normal" in strRegra):
                 suor = "Normal"
-            elif ("Intenso" in str(strRegra)):
+            elif ("Intenso" in strRegra):
                 suor = "Intenso"    
 
             #Mapeia Nausea
-            if ("Nausea" in str(strRegra)):
-                nausea = "Nausea"
-            elif ("Sem nausea" in str(strRegra)):
+            if ("Sem nausea" in strRegra):
                 nausea = "Sem nausea"
+            elif ("Nausea" in strRegra):
+                nausea = "Nausea"
 
             #Mapeia Pneumonia
-            if ("0" in str(strRegra)):
+            if ("0" in strRegra):
                 pneumonia = "0"
-            elif ("1" in str(strRegra)):
+            elif ("1" in strRegra):
                 pneumonia = "1"
 
             regraMapeada = Regra(suporte * 100, febre, tosse, faltaAr, dor, malEstar, fraqueza, suor, nausea, pneumonia) #Monta o objeto regra para melhor controle das informações
