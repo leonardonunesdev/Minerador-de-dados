@@ -354,7 +354,7 @@ function montaGraficos(){
         options: {
           title: {
             display: true,
-            text: 'Regras gerasdas vs Regras analisadas'
+            text: 'Regras geradas vs Regras analisadas'
           }
         }
     });
